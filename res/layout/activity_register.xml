@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity" >
+
+    <TextView
+        android:id="@+id/txt_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:drawableLeft="@drawable/night_bobo_back"
+        android:gravity="center_vertical"
+        android:text="注册网易邮箱"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_username_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/login_username_icon"
+        android:gravity="bottom"
+        android:hint="6到18个字符,字母开头"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/edt_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:drawableLeft="@drawable/login_password_icon"
+        android:gravity="bottom"
+        android:hint="密码:6到16个字符"
+        android:paddingLeft="5dp" />
+    <EditText
+        android:id="@+id/edt_random_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:drawableLeft="@drawable/login_password_icon"
+        android:gravity="bottom"
+        android:hint="验证码(点击切换)"
+        android:paddingLeft="5dp" />
+    
+    <com.android.volley.toolbox.NetworkImageView 
+        android:id="@+id/img_rundow_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    
+    <Button
+        android:id="@+id/btn_submit_register"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#600f"
+        android:text="立即注册"
+        android:textColor="#5fff"
+        android:textSize="20sp" />
+
+    
+</LinearLayout>

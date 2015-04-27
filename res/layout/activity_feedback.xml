@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        >
+        <TextView
+        android:id="@+id/txt_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/night_bobo_back"
+        android:gravity="center_vertical"
+        android:text="反馈"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+        
+        <TextView
+        android:id="@+id/txt_send"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:text="发送"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+        
+    </RelativeLayout>
+    
+
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#2000"
+        android:paddingBottom="10dp"
+        android:gravity="top"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:hint="请输入反馈内容"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#5000" >
+
+    <TextView
+        style="@style/popupwindow"
+        android:drawableLeft="@drawable/night_rain_little_mini"
+        android:text="29/12" />
+
+    <TextView
+        style="@style/popupwindow"
+        android:drawableLeft="@drawable/contenttoolbar_hd_download_light"
+        android:text="离线" />
+
+    <TextView
+        style="@style/popupwindow"
+        android:drawableLeft="@drawable/night_rain_little_mini"
+        android:text="夜间" />
+
+    <TextView
+        style="@style/popupwindow"
+        android:drawableLeft="@drawable/night_pluginboard_icon_search"
+        android:text="搜索" />
+
+    <TextView
+        style="@style/popupwindow"
+        android:drawableLeft="@drawable/usercenter_hd_camera"
+        android:text="扫一扫" />
+
+    <TextView
+        style="@style/popupwindow"
+        android:drawableLeft="@drawable/night_setting_icon_normal"
+        android:text="设置" />
+
+</LinearLayout>

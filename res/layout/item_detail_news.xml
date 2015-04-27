@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/title_detail_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="标题"
+        android:layout_marginTop="15dp"/>
+   
+   <TextView
+       android:id="@+id/time_detail_news" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="12sp"
+       android:textColor="#4000"
+       android:text="2015-04-24"/>
+   
+ 
+   <com.android.volley.toolbox.NetworkImageView
+       android:id="@+id/cover_detail_news"
+       android:layout_width="match_parent"
+       android:layout_height="230dp"
+       android:layout_marginTop="5dp"/>
+   
+   <TextView
+       android:id="@+id/content_detail_news"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="内容"
+       android:layout_marginTop="15dp"
+       android:textColor="#000"
+       />
+   
+   <com.android.volley.toolbox.NetworkImageView
+       android:id="@+id/pic1_detail_news"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"/>
+   
+   <com.android.volley.toolbox.NetworkImageView
+       android:id="@+id/pic2_detail_news"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"/>
+   
+   
+   <com.android.volley.toolbox.NetworkImageView
+       android:id="@+id/pic3_detail_news"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"/>
+
+</LinearLayout>
